@@ -175,6 +175,13 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- json 관련 라이브러리의 의존관계 추가  -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.9.8</version>
+		</dependency>
 
 	</dependencies>
 	<build>
